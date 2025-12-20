@@ -76,7 +76,7 @@ function App() {
   const mehndiImages = [
     // { url: "v1766221942/WhatsApp_Image_2025-12-20_at_14.20.28_ublnln.jpg", name: "Bridal Mehndi", price: "₹5,000" },
     { url: "v1766221942/WhatsApp_Image_2025-12-20_at_14.21.33_tip31y.jpg", name: "Party Mehndi", price: "₹1,500" },
-    { url: "v1766221943/WhatsApp_Image_2025-12-20_at_14.23.50_togwha.jpg", name: "Simple Mehndi", price: "₹1,000" },
+    // { url: "v1766221943/WhatsApp_Image_2025-12-20_at_14.23.50_togwha.jpg", name: "Simple Mehndi", price: "₹1,000" },
     { url: "v1766222870/WhatsApp_Image_2025-12-20_at_14.55.12_egruhk.jpg", name: "Indian mehndi", price: "₹1,500" },
     { url: "v1766222870/WhatsApp_Image_2025-12-20_at_14.53.03_tmnjdx.jpg", name: "Arabic mehndi", price: "₹600" },
     { url: "v1766222993/WhatsApp_Image_2025-12-20_at_14.58.02_cuaj0x.jpg", name: "Theme based mehndi", price: "₹1,500" },

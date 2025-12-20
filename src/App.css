@@ -211,6 +211,31 @@ body {
 
 /* ================= PORTFOLIO ================= */
 
+.portfolio-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.tab-button {
+  padding: 0.5rem 1rem;
+  background: #f8c8dc;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.tab-button.active {
+  background: #d2b48c;
+  color: white;
+}
+
+.tab-button:hover {
+  background: #e6b8c7;
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -387,4 +412,122 @@ body {
   to {
     transform: translateY(0);
   }
+}
+/* ================= IMAGE VIEWER MODAL ================= */
+
+.image-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3000;
+}
+
+.image-modal-content {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-image {
+  max-width: 85vw;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: 10px;
+  background: #f9f6f4;
+}
+
+.image-close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.image-close-button:hover {
+  background: rgba(255, 255, 255, 1);
+}
+
+/* ================= MEHNDI ITEMS ================= */
+
+.mehndi-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.mehndi-caption {
+  text-align: center;
+}
+
+.mehndi-caption h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  margin: 0;
+  color: #5d4e37;
+}
+
+.mehndi-caption p {
+  font-size: 1rem;
+  color: #d2b48c;
+  margin: 0.2rem 0;
+}
+
+/* ================= PAYMENT QR MODAL ================= */
+
+.payment-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2500;
+  cursor: pointer;
+}
+
+.payment-modal-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+  max-width: 400px;
+  width: 90%;
+}
+
+.payment-close-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: #f8c8dc;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.qr-code {
+  max-width: 200px;
+  max-height: 200px;
+  margin: 1rem 0;
 }

@@ -77,12 +77,12 @@ function App() {
     // { url: "v1766221942/WhatsApp_Image_2025-12-20_at_14.20.28_ublnln.jpg", name: "Bridal Mehndi", price: "₹5,000" },
     { url: "v1766221942/WhatsApp_Image_2025-12-20_at_14.21.33_tip31y.jpg", name: "Party Mehndi", price: "₹1,500" },
     // { url: "v1766221943/WhatsApp_Image_2025-12-20_at_14.23.50_togwha.jpg", name: "Simple Mehndi", price: "₹1,000" },
-    { url: "v1766222870/WhatsApp_Image_2025-12-20_at_14.55.12_egruhk.jpg", name: "Indian mehndi", price: "₹1,500" },
+    { url: "v1766222870/WhatsApp_Image_2025-12-20_at_14.55.12_egruhk.jpg", name: "Indian mehndi", price: "₹2,000" },
     { url: "v1766222870/WhatsApp_Image_2025-12-20_at_14.53.03_tmnjdx.jpg", name: "Arabic mehndi", price: "₹600" },
     { url: "v1766222993/WhatsApp_Image_2025-12-20_at_14.58.02_cuaj0x.jpg", name: "Theme based mehndi", price: "₹1,500" },
     { url: "v1766224467/WhatsApp_Image_2025-12-20_at_15.08.56_k8wkfg.jpg", name: "Foot mehndi", price: "₹500" },
     { url: "v1766225079/Screenshot_2025-12-20-15-32-06-508_com.frontrow.vlog-edit_gespak.jpg", name: "Bridal mehndi", price: "₹3,500" },
-    { url: "v1766228386/WhatsApp_Image_2025-12-20_at_14.44.18_k3k5oz.jpg", name: "Mandala mehndi", price: "₹1,000" }
+    { url: "v1766228386/WhatsApp_Image_2025-12-20_at_14.44.18_k3k5oz.jpg", name: "Mandala mehndi", price: "₹500" }
   ];
 
   return (
@@ -110,8 +110,9 @@ function App() {
       {/* ================= HERO ================= */}
       <section id="home" className="hero">
         <div className="hero-content">
-          <h2>Ankita Kumari</h2>
-          <p>Transforming Beauty with Elegance, Precision, and Intricate Mehndi Designs</p>
+          <h2>Glow by Ankita</h2>
+          <p>Ankita Kumari • Professional Makeup & Mehndi Artist</p>
+
           <button className="cta-button" onClick={handleBookNow}>
             Book Now
           </button>
@@ -120,16 +121,27 @@ function App() {
 
       {/* ================= ABOUT ================= */}
       <section id="about" className="about">
-        <div className="container">
-          <h2>About Me</h2>
-          <p>
-            With over 2 years of experience in the beauty industry, I specialize
-            in creating timeless, luxurious makeup looks and intricate mehndi designs that enhance your natural
-            beauty. My goal is to make every client feel confident and radiant, whether for makeup or mehndi artistry.
-          </p>
-          <img src={aboutImage} alt="Ankita Kumari" />
+        <div className="container about-content">
+
+          <div className="about-text">
+            <h2>About Me</h2>
+            <p>
+              With over 3 years of professional experience in the beauty industry, I specialize in creating flawless makeup looks and intricate mehndi designs that enhance natural beauty.
+              <br /><br />
+              I am a <strong>Lakmé Certified Makeup Artist</strong>, trained in modern techniques, skin-friendly products, and personalized styling.
+              <br /><br />
+              My goal is to make every client feel confident, radiant, and truly special on their most important days.
+            </p>
+          </div>
+
+          <div className="about-image">
+            <img src={aboutImage} alt="Ankita Kumari" />
+          </div>
+
         </div>
       </section>
+
+
 
       {/* ================= SERVICES ================= */}
       <section id="services" className="services">

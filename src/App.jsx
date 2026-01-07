@@ -69,7 +69,9 @@ function App() {
     "v1765979005/WhatsApp_Image_2025-12-17_at_09.47.37_1_u38c09.jpg",
     "v1765979004/WhatsApp_Image_2025-12-17_at_09.47.36_uqhns2.jpg",
     "v1765979004/WhatsApp_Image_2025-12-17_at_09.47.37_iqxsto.jpg",
-    "v1765979004/WhatsApp_Image_2025-12-17_at_09.47.38_yqfunn.jpg"
+    "v1765979004/WhatsApp_Image_2025-12-17_at_09.47.38_yqfunn.jpg",
+    "v1767797014/IMG_7186_ojfswu.jpg",
+    "v1767797014/IMG_7190_etstvl.jpg"
   ];
 
   // Mehndi Images with Name and Price

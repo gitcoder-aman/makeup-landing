@@ -137,7 +137,7 @@ function App() {
           </div>
 
           <div className="about-image">
-            <img src={aboutImage} alt="Ankita Kumari" />
+            <img src="https://res.cloudinary.com/drsrdkhn7/image/upload/v1769354881/WhatsApp_Image_2026-01-17_at_13.22.39_jwhyxb.jpg" alt="Ankita Kumari" />
           </div>
 
         </div>
